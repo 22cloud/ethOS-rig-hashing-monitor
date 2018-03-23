@@ -6,7 +6,7 @@ ethOS python script to restart a rig if it stops hashing for more than 7 minutes
 
 From time to time I find that one of the GPUs in my rigs stops hashing and usually a restart takes care of the issue. I got tired of manually restarting the rig when noticing (Sometimes I wouldn't notice until after 5+ hours, because... you know... I sleep and stuff).
 
-To make life simpler, I created this script and I no longer have to monitor my rigs anymore.
+To make life simpler, I created this script and I no longer have to monitor my rigs.
 
 Hope it makes your life easy too!
 

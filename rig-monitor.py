@@ -38,7 +38,7 @@ while 1:
     hashes = GetHashes()
     restart = None
     gpuHashes = hashes.split(' ')
-    DumpActivity(str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))+" * Rig rebooted - Hashes = {"+str(gpuHashes)+"}")
+    DumpActivity(str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))+" * Hashes = {"+str(gpuHashes)+"}")
     for gpuHash in gpuHashes:
         if (gpuHash == "00.00" or gpuHash == "0"):
             restart = True
